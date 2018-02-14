@@ -1,0 +1,14 @@
+{
+  "name": "node-module-with-unittests-template",
+  "homepage": "https://github.com/byuksel/node-module-with-unittests-template",
+  "_release": "e0006be951",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "e0006be951d82131eedc929630416295f2d59c5c"
+  },
+  "_source": "https://github.com/byuksel/node-module-with-unittests-template.git",
+  "_target": "*",
+  "_originalSource": "node-module-with-unittests-template",
+  "_direct": true
+}

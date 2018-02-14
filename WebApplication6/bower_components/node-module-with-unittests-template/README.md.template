@@ -1,0 +1,41 @@
+Write an awesome description for your new module here. You can edit this file and its contents for
+your final README.md file. This template will go through the "replace:dist" step of the Gruntfile
+which replaces 3 variables in this file (you can add more if you like).
+
+1. @@unminimized_file : your unminimized library as produced by the "browserify:standalone" step in Gruntfile.js
+2. @@minimized_file : your minimized library as produced by the "uglify:all" step in Gruntfile.js
+3. @@pkg_version : the package version which is read from package.json.
+
+Below, there is a sample "Downloads" section to show you how to use these 3 variables.
+
+The output of "replace:dist" is your README.md file. The "markdown:all" step will also produce the html
+equivalent of your README.md so that you can put this on your own website.
+
+## Downloads ##
+
+* [Version @@pkg_version, minimized, 4.4K : http://yourwebsite.com/@@minimized_file](http://yourwebsite.com/@@minimized_file)
+* [Version @@pkg_version, un-minimized, 13K : http://yourwebsite.com/@@unminimized_file](http://yourwebsite.com/@@unminimized_file)
+
+## Usage ##
+
+### Browser ###
+
+In any web page:
+```html
+<script src="http://yourwebsite.com/@@minimized_file)"></script>
+<script>
+  var NodeModuleWithUnittestsTemplate = require('node-module-with-unittests-template');
+  var example = new NodeModuleWithUnittestsTemplate();
+
+  example.hello();
+</script>
+  ```
+
+### Node.js ###
+
+```js
+var NodeModuleWithUnittestsTemplate = require('./src/node-module-with-unittests-template.js');
+var example = new NodeModuleWithUnittestsTemplate();
+
+example.hello();
+```

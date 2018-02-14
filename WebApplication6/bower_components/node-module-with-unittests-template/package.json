@@ -1,0 +1,55 @@
+{
+  "name": "node-module-with-unittests-template",
+  "version": "0.0.9",
+  "description": "Node-Module-With-Unittests-Template: template for a generic node module with unittests and coverage reports",
+  "keywords": [
+    "template",
+    "node module",
+    "node module template",
+    "unittests"
+  ],
+  "homepage": "http://www.dummy-homepage.com",
+  "author": "Baris Yuksel (http://barisyuksel.com)",
+  "contributors": [
+    "Baris Yuksel (http://barisyuksel.com)"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/byuksel/node-module-with-unittests-template.git"
+  },
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/byuksel/node-module-with-unittests-template/issues"
+  },
+  "main": "src/node-module-with-unittests-template.js",
+  "devDependencies": {
+    "blanket": "^1.2.1",
+    "chai": "^3.4.1",
+    "grunt": "^0.4.5",
+    "grunt-browserify": "^4.0.1",
+    "grunt-cli": "^0.1.13",
+    "grunt-contrib-clean": "^0.6.0",
+    "grunt-contrib-connect": "^0.11.2",
+    "grunt-contrib-jshint": "^0.11.3",
+    "grunt-contrib-uglify": "^0.10.1",
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-flow": "^1.0.0",
+    "grunt-jscs": "^2.4.0",
+    "grunt-jsdoc": "^1.0.0",
+    "grunt-markdown": "^0.7.0",
+    "grunt-mocha-phantomjs": "^2.0.1",
+    "grunt-mocha-test": "^0.12.7",
+    "grunt-replace": "^0.11.0",
+    "jscs-jsdoc": "^1.2.0",
+    "jsdoc": "^3.4.0",
+    "mocha": "^2.2.5",
+    "sinon": "^1.17.2",
+    "sinon-chai": "^2.8.0",
+    "time-grunt": "^1.2.2",
+    "uglify-js": "^2.6.1"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "tonicExample": "var NodeModuleWithUnittestsTemplate = require('node-module-with-unittests-template'); var example = new NodeModuleWithUnittestsTemplate(); example.hello();"
+}
